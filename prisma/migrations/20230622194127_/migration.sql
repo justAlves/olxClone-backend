@@ -17,6 +17,7 @@ CREATE TABLE "posts" (
     "category" TEXT NOT NULL,
     "brand" TEXT NOT NULL,
     "model" TEXT NOT NULL,
+    "year" INTEGER NOT NULL,
     "ownerId" TEXT NOT NULL,
     "createdAt" DATETIME DEFAULT CURRENT_TIMESTAMP,
     "updatedAt" DATETIME DEFAULT CURRENT_TIMESTAMP,

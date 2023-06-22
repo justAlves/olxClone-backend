@@ -34,6 +34,7 @@ model Post {
   category String
   brand   String
   model   String
+  year    Int
 
   owner    User        @relation(fields: [ownerId], references: [id])
   ownerId  String
