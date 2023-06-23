@@ -24,23 +24,10 @@ class CreatePostService {
                 model,
                 year,
                 ownerId,
-            },
-            select: {
-                id: true,
-                title: true,
-                description: true,
-                price: true,
-                category: true,
-                brand: true,
-                model: true,
-                year: true,
-                ownerId: true,
-                createdAt: true,
-                updatedAt: true,
             }
         });
 
-        return {post};
+        return post;
     }
 }
 
